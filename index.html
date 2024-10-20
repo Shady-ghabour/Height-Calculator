@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Calculate Your Futur Height :)</h1>
+        <p class="creator">Made By Shady</p>
+
+        <div class="calc-cont">
+            <div class="gender">
+                <p>What is your gender?</p>
+                <select id="sex">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+            <div class="father">
+                <p>What is your father's height?</p>
+                <input type="text" class="fatherH">
+                <p> cm</p>
+            </div>
+            <div class="mother">
+                <p>What is your mother's height?</p>
+                <input type="text" class="motherH">
+                <p> cm</p>
+            </div>
+            <div class="result">Your futur Height Is <span>0</span> cm</div>
+            <div class="info">?</div>
+            <div class="how">This calculator is used to estimate the potential height of children upon reaching adulthood, based on their gender and the height of both parents. 
+                <br>The height is estimated using the following methods:
+                <br>
+                <b>For boys:</b> Add 13 cm to the mother's height, then add the father's height, and divide the total by 2.
+                <br>
+                <b>For girls:</b> Subtract 13 cm from the father's height, then add the mother's height, and divide the total by 2.</div>
+        </div>
+        <button class="final">Calculate</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

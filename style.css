@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(90deg, #2ea8d9, #b83378);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    padding: 30px;
+    text-align: center;
+}
+
+.creator{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.calc-cont{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #776da8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.gender{
+    display: flex;
+}
+
+select{
+    margin: 0 10px;
+    padding: 11px 1px;
+    border-radius: 10px;
+    background-color: #a88f6d;
+    box-shadow: 0 0 2px;
+}
+
+.father, .mother{
+    display: flex;
+    margin-top: 80px;
+}
+
+.fatherH, .motherH{
+    margin: 0 6px;
+    width: 50px;
+    height: 32px;
+    box-shadow: inset 0 0 3px;
+    background-color: #a88f6d;
+    outline: 0;
+    padding: 4px;
+    border: 1px solid black;
+    appearance: none;
+    font-size: 25px;
+}
+
+.result{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #b4367a;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 0 0 12px #36324d;
+    color: white;
+    display: none;
+}
+
+.info{
+    position: absolute;
+    top: 86%;
+    left: 91%;
+    font-size: 22px;
+    padding: 0 10px;
+    box-shadow: 0px 0px 4px 0px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.how{
+    position: absolute;
+    background-color: #635b8d;
+    color: #dbdada;
+    top: 73px;
+    left: 0;
+    font-size: 17px;
+    padding: 2px;
+    transition: 0.3s;
+    display: none;
+}
+
+.final{
+    margin-top: 30px;
+    text-align: center  ;
+    padding: 10px 20px;
+    background-color: #2ea8d9;
+    color: white;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;    
+    font-size: 25px;
+    box-shadow: 0 0 12px black;
+}
+
+.final:hover{
+    background-color: #207a9e;
+}
+
+@media (max-width:768px) {
+    .calc-cont{
+        width: 95%;
+    }
+
+    .result{
+        width: 100%;
+        margin-left: auto;
+    }
+    
+}
+
+
+
