@@ -21,4 +21,5 @@ This project allows users to estimate their future height based on their gender 
   The JavaScript file that handles the application logic, including updating the estimated height in real-time when the "Calculate" button is clicked.
 
 ## Link
-[https://shady-ghabour.github.io/height-calculator/](https://shady-ghabour.github.io/height-calculator/)
+[https://shady-ghabour.github.io/Height-Calculator/](https://shady-ghabour.github.io/Height-Calculator/)
+
